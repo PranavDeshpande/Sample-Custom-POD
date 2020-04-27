@@ -1,0 +1,22 @@
+{
+  "name": "SwiftNewLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftNewLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pdesh03@safeway.com/SwiftNewLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pdesh03@safeway.com": "pranavdeshpande12592@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/pdesh03@safeway.com/SwiftNewLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftNewLibrary/Classes/**/*"
+}

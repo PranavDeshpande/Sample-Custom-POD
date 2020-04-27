@@ -1,0 +1,6 @@
+framework module SwiftNewLibrary {
+  umbrella header "SwiftNewLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
