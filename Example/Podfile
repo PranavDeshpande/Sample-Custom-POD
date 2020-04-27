@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftNewLibrary_Example' do
+  pod 'SwiftNewLibrary', :path => '../'
+
+  target 'SwiftNewLibrary_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
