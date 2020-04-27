@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftNewLibrary'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SwiftNewLibrary.'
+  s.summary          = 'This is a custom cocoa pod for testing purposes, Created by one of the methods of generation'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,13 +24,16 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/pdesh03@safeway.com/SwiftNewLibrary'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'pdesh03@safeway.com' => 'pranavdeshpande12592@gmail.com' }
-  s.source           = { :git => 'https://github.com/pdesh03@safeway.com/SwiftNewLibrary.git', :tag => s.version.to_s }
+  s.author           = { 'pranav' => 'pranavdeshpande12592@gmail.com' }
+  s.source           = { :git => 'https://github.com/PranavDeshpande/Sample-Custom-POD', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'SwiftNewLibrary/Classes/**/*'
+  s.platforms = {
+      "ios": "12.0"
+  }
   
   # s.resource_bundles = {
   #   'SwiftNewLibrary' => ['SwiftNewLibrary/Assets/*.png']
